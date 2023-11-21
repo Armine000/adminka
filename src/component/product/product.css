@@ -1,0 +1,16 @@
+.our-servise-back {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  .our-service-box {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.096);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.178);
+  }
+  

@@ -1,0 +1,125 @@
+.userName {
+    color: black;
+    background-color:white;
+    width: 70px;
+    cursor: pointer;
+  }
+  .userName:active {
+    background-color:rgb(179, 179, 226);
+    padding: 5px;
+    width: 70px;
+    cursor: pointer;
+  }
+  .input-subject-box{
+    width: 753px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .oll-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 800px;
+    height: auto;
+  }
+  
+  .input-subject{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 20px;
+  
+  }
+  .input-subject-text{
+    width: 753px;
+    height: 40px;
+    background-color: white;
+    border:1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+  }
+  .custom-quill{
+    width: 753px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .message-title-input{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 20px;
+  }
+  
+  .ql-editor {
+      width: 100%;
+      max-width: 735px;
+      min-height: 312px;
+      background-color: #111111;
+      color: white;
+      border: 1px solid #111111;
+      border-radius: 0px 0px 4px 4px;
+  }
+  .ql-formats {
+      width: 30px;
+      height: 30px;
+      font-family: 'Segoe UI';
+      color: #111111;
+      background-color: #f0f0f0;
+      border: 1px solid #cbcaca;
+      font-weight: 800;
+  }
+  .ql-snow {
+      width: 100%;
+      max-width: 735px;
+      background-color: #dddddd;
+      border: 1px solid #d1d1d1;
+      border-radius: 4px 4px 0px 0px;
+      color: #dddddd;
+  }
+  .custom-font-weight {
+      font-weight:600;
+    }
+    .box-send{
+      width: 150px;
+      height: 40px;
+      background-color: rgb(0, 132, 255);
+      border: 1px solid transparent;
+      font-size: 15px;
+      font-family: sans-serif;
+      font-weight: normal;
+      cursor: pointer;
+      border-radius: 10px;
+      color: white;
+    }
+    .submit-buttom{
+      width: 150px;
+      height: 40px;
+      background-color: rgb(0, 132, 255);
+      border: 1px solid transparent;
+      font-size: 15px;
+      font-family: sans-serif;
+      font-weight: normal;
+      cursor: pointer;
+      color: white;
+      border-radius: 10px;
+    }
+    .submit-box-send{
+      display: flex;
+      width: 700px;
+      height: 40px;
+      justify-content: space-around;
+    }
+  
+  
+    .ant-empty .ant-empty-image{
+     display: none;
+    }
+    .ant-empty-normal .ant-empty-description {
+      display: none;
+    }

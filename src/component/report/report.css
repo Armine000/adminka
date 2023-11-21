@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    }
+    
+    .createer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 800px;
+    
+    }
+    .create{
+      margin-top: 50px;
+      width: 800px;
+      height: 50px;
+      align-items: flex-start;
+      align-self: flex-start;
+    }
+    
+    .table-list{
+      display: flex;
+      flex-flow: column;
+      justify-content:center;
+      width: 800px;
+      height: 500px;
+      margin-top: 40px;
+    }
+    
+    
+    
+    th{
+      font-size: 20px;
+      text-align: start;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+    }
+    td{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 16px;
+      width:100px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    }
+    .edit {
+    padding: 0;
+    width: 60px;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    cursor: pointer;
+    }
+    
+    .delete {
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    }
+    .form-control{
+    width: 100%;
+    max-width: 500px;
+    height:40px;
+    
+    }
+    .btn{
+    align-items: center;
+    align-self: center;
+    border:1px solid transparent;
+    color:black;
+    font-weight: 600;
+    background-color: rgb(137, 178, 226);
+    }
+    
+    .form-item{
+      margin-left: 5px;
+    }
+    
+    
+    

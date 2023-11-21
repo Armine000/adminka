@@ -1,0 +1,18 @@
+{
+    "home": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "createButton": "Create +",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "create": {
+        "addUser": "Add New User",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "submit": "Submit"
+      }  
+}
